@@ -6,22 +6,32 @@
 
 /* Responsive CSS for large mobile device starts */
 @media screen and (min-width:320px) and (max-width:480px){
+
+    /* header responsive css starts */
     #header .header-bg .header{
         flex-direction: column;
     }
-    /* #header .header-bg .header .header-menu{
-        flex-direction: column;
-    } */
-
-    #header .header-bg .header .header-logo, .header-menu{
+    #header .header-bg .header .header-logo a, .header-menu{
         justify-content: center;
     }
-
+    
     #header .header-bg .header .header-menu nav ul{
         margin-top: 30px;
         flex-direction: column;
         gap: 20px;
     }
+    /* header responsive css ends */
+
+    /* banner responsive css starts */
+    #banner .banner-bg .banner .banner-content{
+        flex-direction: column-reverse;
+    }
+
+    #banner .banner-bg .banner .banner-content .banner-text{
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+    /* banner responsive css ends */
 
 }
 /* Responsive CSS for large mobile device ends */

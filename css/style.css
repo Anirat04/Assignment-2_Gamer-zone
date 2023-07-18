@@ -42,14 +42,39 @@ body {
 .container {
     width: 1440px;
     margin: 0 auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+}
+
+.btn button {
+    background: var(--linear_1);
+    border: none;
+    display: inline-flex;
+    padding: 15px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+
+.common_p {
+    color: var(--pera-col);
+    font-weight: 500;
 }
 
 /* common css ends */
 
 /* Header Section CSS starts */
-#header .header-bg{
-    margin-top: 44px;
+#header .header-bg {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 #header .header-bg .header {
@@ -57,12 +82,12 @@ body {
     justify-content: space-between;
 }
 
-#header .header-bg .header .header-logo {
+#header .header-bg .header .header-logo a {
     display: flex;
 }
 
 #header .header-bg .header .header-logo p {
-    color: #0B0223;
+    color: var(--black-col);
     font-size: 45px;
     font-weight: 700;
     margin-left: 10px;
@@ -70,8 +95,9 @@ body {
 
 #header .header-bg .header .header-logo p span {
     background: var(--linear_1);
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #header .header-bg .header .header-menu {
@@ -90,7 +116,7 @@ body {
     align-items: center;
 }
 
-#header .header-bg .header .header-menu nav ul li:hover{
+#header .header-bg .header .header-menu nav ul li:hover {
     border-radius: 8px;
     /* width: 200px; */
     height: 36px;
@@ -113,10 +139,63 @@ body {
     font-weight: 500;
 }
 
+/* Header Section CSS ends */
 
-/* #header .header-bg .header .header-menu nav ul li:nth-child(3) a{
-    margin: 0px 24px;
+/* Banner Section CSS starts */
+#banner .banner-bg .banner .banner-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner .banner-bg .banner .banner-content .banner-text{
+    margin-top: 148px;
+}
+#banner .banner-bg .banner .banner-content .banner-text h2 {
+    color: var(--black-col);
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#banner .banner-bg .banner .banner-content .banner-text h1 {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    background: var(--linear_2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#banner .banner-bg .banner .banner-content .banner-text p {
+    margin-bottom: 15px;
+}
+
+#banner .banner-bg .banner .banner-content .banner-text p:hover i {
+    color: #F948B2;
+}
+
+#banner .banner-bg .banner .banner-content .banner-text .button {
+    display: flex;
+    gap: 30px;
+}
+
+#banner .banner-bg .banner .banner-content{
+    position: relative;
+}
+
+#banner .banner-bg .banner .banner-content .b-img{
+    position: absolute;
+    left: -250px;
+}
+
+/* #banner .banner-bg .banner{
+    background: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 100px;
 } */
 
-
-/* Header Section CSS ends */
+/* Banner Section CSS ends */
