@@ -68,6 +68,35 @@ body {
     font-weight: 500;
 }
 
+.h-text {
+    text-align: center;
+}
+
+.h-text h2 {
+    color: var(--black-col);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.h-text span {
+    background: var(--linear_2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 48px; */
+    /* font-style: normal; */
+    /* font-weight: 700; */
+    /* line-height: normal; */
+}
+
+.h-text p {
+    color: var(--pera-col);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
 /* common css ends */
 
 /* Header Section CSS starts */
@@ -142,14 +171,15 @@ body {
 /* Header Section CSS ends */
 
 /* Banner Section CSS starts */
-#banner .banner-bg .banner .banner-content{
+#banner .banner-bg .banner .banner-content {
     display: flex;
     justify-content: space-between;
 }
 
-#banner .banner-bg .banner .banner-content .banner-text{
+#banner .banner-bg .banner .banner-content .banner-text {
     margin-top: 148px;
 }
+
 #banner .banner-bg .banner .banner-content .banner-text h2 {
     color: var(--black-col);
     font-size: 48px;
@@ -181,21 +211,85 @@ body {
     gap: 30px;
 }
 
-#banner .banner-bg .banner .banner-content{
+#banner .banner-bg .banner .banner-content {
     position: relative;
 }
 
-#banner .banner-bg .banner .banner-content .b-img{
+#banner .banner-bg .banner .banner-content .b-img {
     position: absolute;
     left: -250px;
+    height: 100%;
+    z-index: -1;
 }
 
-/* #banner .banner-bg .banner{
-    background: url(../images/Group\ 14.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    left: 100px;
+/* Banner Section CSS ends */
+
+/* gallery section css starts */
+#gallery .gallery-bg{
+    margin: 120px 0px;
+}
+
+/* #gallery .gallery-bg .gallery .gallery-content .gallery-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 342px);
+    justify-content: space-between;
+} */
+#gallery .gallery-bg .gallery .gallery-content .gallery-items{
+    display: grid;
+    grid-template-columns: repeat(4, 342px);
+    justify-content: space-between;
+}
+
+/* #gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card{
+    width: 342px;
 } */
 
-/* Banner Section CSS ends */
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card  .img-div{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card  .img-div img{
+    width: 100%;
+}
+
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div .overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background-color: rgba(11, 2, 35, 0.600);
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+} 
+
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div:hover .overlay{
+    opacity: 1;
+    border: 5px  solid #F948B2;
+    
+}
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card p {
+    color: var(--pera-col);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+
+
+/* gallery section css ends */
