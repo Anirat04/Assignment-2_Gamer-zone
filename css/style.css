@@ -225,17 +225,17 @@ body {
 /* Banner Section CSS ends */
 
 /* we  are gamer section css starts */
-#we_r_gamer .we_r_gamer-bg{
+#we_r_gamer .we_r_gamer-bg {
     padding-top: 55px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
-#we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content{
+#we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content {
     display: flex;
     align-items: center;
 }
 
-#we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text{
+#we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text {
     padding-left: 50px;
 }
 
@@ -260,7 +260,7 @@ body {
 }
 
 
-#we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text .btn{
+#we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text .btn {
     display: flex;
     justify-content: end;
     margin-bottom: 24px;
@@ -525,6 +525,62 @@ body {
 }
 
 /* grid-game section css ends */
+
+/* career section css starts */
+#career .career-bg {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    /* padding: 120px 0px; */
+}
+
+#career .career-bg .career .career-content{
+    display: flex;
+}
+
+#career .career-bg .career .career-content .career-text{
+    width: 50%;
+    margin: 120px  0px;
+}
+
+#career .career-bg .career .career-content .career-text h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+#career .career-bg .career .career-content .career-text p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+#career .career-bg .career .career-content .career-text .list-div{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+#career .career-bg .career .career-content .career-text .list-div ul li {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+#career .career-bg .career .career-content .career-text .list-div ul:nth-child(2){
+    text-align: right;
+}
+
+#career .career-bg .career .career-content .career-text .btn a button{
+    background: #FFF;
+}
+
+
+/* career section css ends */
 
 
 /* Footer Section starts */

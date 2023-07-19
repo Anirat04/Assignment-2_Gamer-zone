@@ -175,10 +175,21 @@
     /* grid-games responsive ends */
 
 
+    /* career responsive starts */
+    #career .career-bg .career .career-content{
+        flex-direction: column;
+    }
+
+    #career .career-bg .career .career-content .career-text{
+        /* width: 100%; */
+        width: calc(100% - 40px);
+        margin: 120px 0px;
+        margin-left: 20px;
+    }
+    /* career responsive ends */
 
 
-
-
+    /* footer responsive starts */
     #footer .footer-bg .footer .footer-content .footer-menu ul{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -206,6 +217,9 @@
         margin-top: 15px;
     }
 }
+
+
+    /* footer responsive ends */
 /* Responsive CSS for large mobile device ends */
 
 
