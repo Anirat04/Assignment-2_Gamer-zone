@@ -41,6 +41,41 @@
 
     /* banner responsive css ends */
 
+    /* we  are gamer responsive css starts */
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content{
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-img img{
+        width: 100%;
+    }
+
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text {
+        padding: 0;
+        margin: 0px 20px;
+    }
+
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text h2{
+        text-align: center;
+    }
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text .fp{
+        text-align: center;
+    }
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text .btn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text .sp{
+        text-align: center;
+    }
+    #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-text h3{
+        text-align: center;
+    }
+    /* we  are gamer responsive css ends */
+
     /* gallery responsive css starts */
     #gallery .gallery-bg .gallery .gallery-content .h-text{
         margin: 0px 20px;
