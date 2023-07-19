@@ -141,6 +141,37 @@
     }
     /* grid-games responsive ends */
 
+
+
+
+
+
+    #footer .footer-bg .footer .footer-content .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #footer .footer-bg .footer .footer-content .footer-menu ul li a{
+        margin: 0;
+    }
+
+    #footer .footer-bg .footer .footer-content .social ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #footer .footer-bg .footer .footer-content .terms ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #footer .footer-bg .footer .footer-content .terms ul li a{
+        margin: 0px;
+    }
+
+    #footer .footer-bg .footer .footer-content .terms ul li{
+        margin-left: 40px;
+        margin-top: 15px;
+    }
 }
 /* Responsive CSS for large mobile device ends */
 
