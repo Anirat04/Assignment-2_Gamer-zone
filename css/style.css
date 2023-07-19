@@ -225,7 +225,7 @@ body {
 /* Banner Section CSS ends */
 
 /* gallery section css starts */
-#gallery .gallery-bg{
+#gallery .gallery-bg {
     margin: 120px 0px;
 }
 
@@ -234,7 +234,7 @@ body {
     grid-template-columns: repeat(auto-fill, 342px);
     justify-content: space-between;
 } */
-#gallery .gallery-bg .gallery .gallery-content .gallery-items{
+#gallery .gallery-bg .gallery .gallery-content .gallery-items {
     display: grid;
     grid-template-columns: repeat(4, 342px);
     justify-content: space-between;
@@ -244,17 +244,17 @@ body {
     width: 342px;
 } */
 
-#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card  .img-div{
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div {
     height: 400px;
     position: relative;
     overflow: hidden;
 }
 
-#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card  .img-div img{
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div img {
     width: 100%;
 }
 
-#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div .overlay{
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div .overlay {
     width: 100%;
     height: 100%;
     border-radius: 16px;
@@ -275,13 +275,14 @@ body {
     -moz-transition: all linear 0.3s;
     -ms-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
-} 
-
-#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div:hover .overlay{
-    opacity: 1;
-    border: 5px  solid #F948B2;
-    
 }
+
+#gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card .img-div:hover .overlay {
+    opacity: 1;
+    border: 5px solid #F948B2;
+
+}
+
 #gallery .gallery-bg .gallery .gallery-content .gallery-items .gl-card p {
     color: var(--pera-col);
     font-size: 20px;
@@ -290,6 +291,109 @@ body {
     margin-top: 15px;
 }
 
-
-
 /* gallery section css ends */
+
+
+
+/* play instant section  ccs starts */
+#play-ins .play-ins-bg .play-ins .play-ins-content {
+    display: flex;
+}
+
+#play-ins .play-ins-bg .play-ins .play-ins-content .pp{
+    display: flex;
+    align-items: center;
+}
+
+#play-ins .play-ins-bg .play-ins .play-ins-content .play-text {
+    text-align: right;
+    padding-left: 187px;
+    padding-right: 263px;
+}
+
+#play-ins .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(2) {
+    color: var(--pera-col);
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+#play-ins .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(1) {
+    color: var(--black-col);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#play-ins .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(1) span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#play-ins .play-ins-bg .play-ins .play-ins-content .play-img{
+    position: relative;
+}
+
+#play-ins .play-ins-bg .play-ins .play-ins-content .play-img .lower-img{
+    position: absolute;
+    top: 360px;
+    right: 461px;
+}
+
+/* play instant section  ccs ends */
+
+#play-gam .play-ins-bg{
+    margin-top: 180px;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content {
+    display: flex;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content .pp{
+    display: flex;
+    align-items: center;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content .play-text {
+    text-align: left;
+    padding-left: 249px;
+    padding-right: 55pxpx;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(2) {
+    color: var(--pera-col);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(1) {
+    color: var(--black-col);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(1) span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content .play-img{
+    position: relative;
+}
+
+#play-gam .play-ins-bg .play-ins .play-ins-content .play-img .lower-img{
+    position: absolute;
+    top: 408px;
+    left: 528px;
+}
