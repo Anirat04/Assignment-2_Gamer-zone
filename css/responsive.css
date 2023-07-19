@@ -43,9 +43,7 @@
 
     /* we  are gamer responsive css starts */
     #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content{
-        /* display: flex; */
         flex-direction: column;
-        /* align-items: center; */
     }
 
     #we_r_gamer .we_r_gamer-bg .we_r_gamer .we_r_gamer-content .we-img img{
@@ -111,7 +109,7 @@
     }
 
     #play-ins .play-ins-bg .play-ins .play-ins-content .play-img img{
-        width: 80%;
+        width: 90%;
     }
 
     #play-ins .play-ins-bg .play-ins .play-ins-content .play-img .lower-img{
@@ -147,7 +145,7 @@
     }
 
     #play-gam .play-ins-bg .play-ins .play-ins-content .play-img img{
-        width: 80%;
+        width: 90%;
     }
 
     #play-gam .play-ins-bg .play-ins .play-ins-content .play-img .lower-img{
