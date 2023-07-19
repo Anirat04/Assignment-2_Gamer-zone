@@ -53,8 +53,106 @@
     }
     /* gallery responsive css ends */
 
+    /* play instant responsive starts */
+    #play-ins, .play-ins-bg .play-ins .play-ins-content{
+        flex-direction: column;
+    }
+
+    #play-ins .play-ins-bg .play-ins .play-ins-content .play-text{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        margin: 0 30px;
+        margin-bottom: 30px;
+    }
+
+    #play-ins .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(2){
+        text-align: center;
+    }
+
+    #play-ins .play-ins-bg .play-ins .play-ins-content .play-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #play-ins .play-ins-bg .play-ins .play-ins-content .play-img img{
+        width: 80%;
+    }
+
+    #play-ins .play-ins-bg .play-ins .play-ins-content .play-img .lower-img{
+        width: 45%;
+        position: absolute;
+        top: 80%;
+        right: 0;
+        left: 0;
+    }
+    /* play instant responsive ends */
+
+
+    /* play games responsive starts */
+    #play-gam .play-ins-bg .play-ins .play-ins-content{
+        flex-direction: column-reverse;
+    }
+
+    #play-gam .play-ins-bg .play-ins .play-ins-content .play-text{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        margin: 0 30px;
+        margin-bottom: 30px;
+    }
+
+    #play-gam .play-ins-bg .play-ins .play-ins-content .play-text p:nth-child(2){
+        text-align: center;
+    }
+
+    #play-gam .play-ins-bg .play-ins .play-ins-content .play-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #play-gam .play-ins-bg .play-ins .play-ins-content .play-img img{
+        width: 80%;
+    }
+
+    #play-gam .play-ins-bg .play-ins .play-ins-content .play-img .lower-img{
+        width: 30%;
+        position: absolute;
+        top: 77%;
+        left: 68%;
+    }
+
+    #play-gam .play-ins-bg .play-ins .play-ins-content .play-img .lower-img  img{
+        width: 100%;
+    }
+    /* play games responsive ends */
+
+    /* grid-games responsive starts */
+    #grid-game .grid-game-bg .grid-game .grid-align{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 248px);
+        justify-content: center;
+        grid-template-rows: repeat(2, 80px);
+        row-gap: 30px;
+    }
+
+    #grid-game .grid-game-bg .grid-game .grid-align .f, .g, .h, .i{
+        margin-left: 0%;
+    }
+    /* grid-games responsive ends */
+
 }
 /* Responsive CSS for large mobile device ends */
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width:481px) and (max-width:768px){
